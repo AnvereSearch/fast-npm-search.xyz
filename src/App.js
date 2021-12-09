@@ -34,7 +34,7 @@ function App() {
 						__html: props?.hit["_highlightResult"].name.value,
 					}}
 					href={`https://www.npmjs.com/package/${props.hit.id}`}
-					target="_blank"
+					target="_blank" rel="noreferrer"
 				/>
 				<div
 					className="hit-description"
